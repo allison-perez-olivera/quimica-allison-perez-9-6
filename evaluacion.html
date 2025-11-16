@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Evaluación - Química</title>
+  <style>
+    body { background-color: lightpink; margin: 20px; }
+    h1 { font-size: 40px; font-family: Arial; color: blue; background: #fff0f5; text-align: center; padding: 10px; }
+    p, label { font-family: "Times New Roman"; font-style: italic; color: black; font-size: 16px; }
+    form { width: 80%; margin: auto; background: #fff6fb; padding: 12px; border-radius: 8px; }
+    input, select, textarea { width: 98%; padding: 6px; margin-top: 4px; }
+    .pregunta { background: #fff; margin-top: 10px; padding: 8px; border-radius: 5px; }
+    footer { text-align:center; margin-top: 20px; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <h1>Evaluación de Química</h1>
+
+  <form>
+    <h2>Datos del estudiante</h2>
+    <label>Nombre y Apellido:</label>
+    <input type="text" value="">
+    <label>Grupo:</label>
+    <input type="text" value="">
+    <label>C.I.:</label>
+    <input type="text" value="">
+    <label>Correo electrónico:</label>
+    <input type="email" placeholder="">
+    <label>Fecha:</label>
+    <input type="date">
+
+    <h2>Preguntas</h2>
+
+    <div class="pregunta">
+      1¿Qué diferencia hay entre una sustancia pura y una mezcla?<br>
+      <textarea rows="3"></textarea>
+    </div>
+
+    <div class="pregunta">
+      2️ ¿Cuál de los siguientes sistemas es homogéneo?<br>
+      <label><input type="radio" name="p2"> Aire</label><br>
+      <label><input type="radio" name="p2"> Agua y aceite</label><br>
+      <label><input type="radio" name="p2"> Arena y agua</label>
+    </div>
+
+    <div class="pregunta">
+      3️ Marca los métodos de separación físicos:<br>
+      <label><input type="checkbox"> Filtración</label><br>
+      <label><input type="checkbox"> Tamización</label><br>
+      <label><input type="checkbox"> Destilación</label>
+    </div>
+
+    <div class="pregunta">
+      4️ ¿Qué método se usa para separar líquidos con distintos puntos de ebullición?<br>
+      <select>
+        <option value="">--Elegir--</option>
+        <option>Filtración</option>
+        <option>Destilación</option>
+        <option>Centrifugación</option>
+      </select>
+    </div>
+
+    <div class="pregunta">
+      5️ Completa: En un sistema ________ hay una sola fase visible.<br>
+      <input type="text">
+    </div>
+
+    <br>
+    <input type="submit" value="Enviar evaluación">
+  </form>
+
+  <p style="text-align:center;">
+    <a href="index.html">Volver al inicio</a>
+  </p>
+
+  <footer>
+   2025 Allison Perez 9°6
+  </footer>
+</body>
+</html>
